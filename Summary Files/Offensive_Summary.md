@@ -26,8 +26,6 @@ This scan identifies the services below as potential points of entry:
   - Port 445/TCP 	Open 	netbios-ssn
 
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
-
 The following vulnerabilities were identified on each target:
 
 **Target 1**
@@ -37,8 +35,6 @@ The following vulnerabilities were identified on each target:
   - MySQL Password Unencrypted in Config File (wp-config.php)
   - Misconfiguration of User Privileges/Privilege Escalation - Python command can be easily used to gain root access. 
 
-
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 - User Enumeration
 
@@ -58,7 +54,6 @@ _TODO: Include vulnerability scan results to prove the identified vulnerabilitie
 
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
@@ -159,7 +154,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 ![steven ssh](/Images/steven-ssh.jpg)
 
-![evelating privileges](/Images/python.jpg)
+![evelating privileges](/Images/python-command.jpg)
 
 ![Flag 4](/Images/flag4.jpg)
 
