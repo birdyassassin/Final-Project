@@ -34,14 +34,29 @@ The following vulnerabilities were identified on each target:
 
   - User Enumeration (WordPress site) - easily found with `wpscan`
   - Weak User Password - user Michael using "Michael" as their password 
-  - Unsalted User Password Hash (WordPress database)
+  - MySQL Password Unencrypted in Config File (wp-config.php)
   - Misconfiguration of User Privileges/Privilege Escalation - Python command can be easily used to gain root access. 
 
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
+- User Enumeration
+
 ![User Enumeration WPscan](/Images/wpscan.jpg)
-![User Enumeration Users](/Images.wp-enumeration.jpg)
+![User Enumeration Users](/Images/wp-enumeration.jpg)
+
+- Weak User Password
+
+![SSH into wp](/Images/ssh-michael.jpg)
+
+- MySQL Password Plaintext
+
+![Password Hash](/Images/wp-config.jpg)
+
+- Misconfiguration of User Privileges
+
+![User Privileges](/Images/python-command.jpg)
+
 
 ### Exploitation
 _TODO: Fill out the details below. Include screenshots where possible._
