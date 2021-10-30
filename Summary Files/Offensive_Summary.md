@@ -93,7 +93,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
             - `ssh michael@192.168.1.110` 
             - `pw: michael`
             - `cd /` 
-            - `find / -name flag*
+            - `find / -name flag*`
             - `cd var/www/`
             - `ls -la`
             - `cat flag2.txt`
